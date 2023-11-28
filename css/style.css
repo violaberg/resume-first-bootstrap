@@ -247,3 +247,23 @@ footer {
     position: relative;
     width: 60%;
 }
+
+/* ---Skills---*/
+.progress {
+    height: 25px;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+.progress-type {
+    background-color: rgba(25, 25, 25, 0.2);
+    color: #fafafa;
+    font-weight: 400;
+    left: 0px;
+    padding: 3px 30px 2px 10px;
+    position: absolute;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
