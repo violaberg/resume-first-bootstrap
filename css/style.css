@@ -26,6 +26,19 @@
     background-color: #fff;
 }
 
+.section-column {
+    display: table-cell;
+    float: none;
+    padding: 0 30px 30px;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
 /* ---Special paddings/margins/text---*/
 h1,h2,h3,h4 {
     margin: 0;
@@ -47,19 +60,6 @@ h1,h2,h3,h4 {
 
 .row-table {
     display: table;
-}
-
-.section-column {
-    display: table-cell;
-    float: none;
-    padding: 0 30px 30px;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-bottom: 40px;
-    margin-top: 25px;
 }
 
 /* ---Headings---*/
@@ -212,4 +212,38 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* ---Personal info---*/
+.personal-info-item {
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+    width: 30%;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
