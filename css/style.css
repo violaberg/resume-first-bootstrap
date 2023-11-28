@@ -10,6 +10,14 @@
     background-color: #e67e22;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
 .ui-menu-color-resume {
     background-color: #9b59b6;
 }
@@ -24,19 +32,6 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
-}
-
-.section-column {
-    display: table-cell;
-    float: none;
-    padding: 0 30px 30px;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-bottom: 40px;
-    margin-top: 25px;
 }
 
 /* ---Special paddings/margins/text---*/
@@ -60,6 +55,20 @@ h1,h2,h3,h4 {
 
 .row-table {
     display: table;
+}
+
+.section-column {
+    display: table-cell;
+    float: none;
+    padding: 0 30px 30px;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 25px;
 }
 
 /* ---Headings---*/
@@ -266,4 +275,51 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ---Work history---*/
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    border-left: 1px solid;
+    color: #fafafa;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    left: 2.5em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 3em;
+}
+
+.timeline-item:after {
+    background: #fafafa;
+    border-radius: 12px;
+    content: '';
+    display: block;
+    height: 12px;
+    left: -6px;
+    position: absolute;
+    top: 2.4em;
+    width: 12px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
